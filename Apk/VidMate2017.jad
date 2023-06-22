@@ -1,0 +1,12 @@
+Manifest-Version: 1.0.0
+MIDlet-Name: VidMate 2017
+MIDlet-Version: 2.1.7
+MIDlet-Vendor: VidMate
+MIDlet-Description: Search Music And Video Download Free - Video Search
+MIDlet-Icon: /icon.png
+MIDlet-1: VidMate 2017,/icon.png,com.traveltouch.XmlViewMidlet
+MIDlet-Delete-Confirm: Latest update on App Store
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+MIDlet-Jar-Size: 227793
+MIDlet-Jar-URL: VidMate2017.jar

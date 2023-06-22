@@ -1,0 +1,28 @@
+<?php 
+include 'ttk-top.php';
+exit();
+$domain = $_SERVER["SERVER_NAME"];
+if($domain != "api.patilweb.com")
+{
+
+include 'inc/conf.inc';// echo'webapp://google.com';exit();
+     $checkVars = array("IN", "PK", "PH", "ID");
+            if(in_array($xpi, $checkVars)){}else{ exit();}//not found
+}
+ini_set('display_errors', 0);
+
+header('Content-Type: text/html; charset=utf-8');
+header('xum: zipped');
+//,"webopenback":"http://apvideo.info/pg/set.html?id=000812f0"
+ $data='{"id":1,"pref":false,"rid":"","status":null,"header":false,"head":"","footer":false,"foot":"","backcolor":"no","toolcolor":"no","df":false,"desingf":0,"banner":true,"nativead":true,"PER_ITEM_AD":10,"history":"AvpTube Trending ","type":"youtube","uplink":"null","upurl":"null","webopenback":"","webads":false,"adset":{"show":9999,"close":210000},"result":[
+ {"vid":"1","title":"Top 10 Most Viewed Music Videos Each Year (2010-2018)","shr":"Top2018","poff":"true","agent":"","FAll":"","PTR":"","UXL":"","act":"no","bm":"ns","open":"","dte":"13 Nov 2018","thumb":"http://i.ytimg.com//vi/tq31EzDqoqw/default.jpg","lnk":"tq31EzDqoqw"},
+ {"vid":"1","title":"Aankh Marey- Mika Sing Neha Kakkar","shr":"VideoMusic","poff":"true","agent":"","FAll":"","PTR":"","UXL":"","act":"no","bm":"ns","open":"","dte":"13 November 2018","thumb":"http://i.ytimg.com//vi/_KhQT-LGb-4/default.jpg","lnk":"_KhQT-LGb-4"},
+ {"vid":"1","title":"Jaun De na Va Marathi India Song","shr":"Marathi India","poff":"true","agent":"","FAll":"","PTR":"","UXL":"","act":"no","bm":"ns","open":"","dte":"13 Nov 2018","thumb":"http://i.ytimg.com//vi/6E-4cH9bDCM/default.jpg","lnk":"6E-4cH9bDCM"},
+ {"vid":"1","title":"Dame Tu Cosita Challenge by Aashma","shr":"VideoDance","poff":"true","agent":"","FAll":"","PTR":"","UXL":"","act":"no","bm":"ns","open":"","dte":"13 Nov 2018","thumb":"http://i.ytimg.com//vi/LcGp10fqlaA/default.jpg","lnk":"LcGp10fqlaA"},
+ {"vid":"1","title":"Let Me Love You Remix Bollywood","shr":"Mashup","poff":"true","agent":"","FAll":"","PTR":"","UXL":"","act":"no","bm":"ns","open":"","dte":"13 Nov 2018","thumb":"http://i.ytimg.com//vi/_1cens0L1Rw/default.jpg","lnk":"_1cens0L1Rw"},
+ {"vid":"1","title":"Justin Bieber - Sorry","shr":"PopVideoMusic","poff":"true","agent":"","FAll":"","PTR":"","UXL":"","act":"no","bm":"ns","open":"","dte":"13 Nov 2018","thumb":"http://i.ytimg.com//vi/fRh_vgS2dFE/default.jpg","lnk":"fRh_vgS2dFE"},
+ {"vid":"1","title":"David Guetta, Bebe Rexha & J Balvin - Say My Name","shr":"POPVideo","poff":"true","agent":"","FAll":"","PTR":"","UXL":"","act":"no","bm":"ns","open":"","dte":"06 September 2018","thumb":"http://i.ytimg.com//vi/ft4jcPSLJfY/default.jpg","lnk":"ft4jcPSLJfY"},
+ {"vid":"1","title":"More Video Result ----->( NEXT )","poff":"true","agent":"","FAll":"","PTR":"","UXL":"","act":"next","bm":"true","open":"","shr":"next","dte":"More","thumb":"http://mobile.djamol.com/data/avp/img/next.png","lnk":"http://obj1.djamol.com/avp/cat.php?q=bollywood&cat=&dur=&type=3&page=CC4QAA"}],"user":"tested"}';
+ echo base64_encode(gzcompress($data));
+//echo $data
+ ?>

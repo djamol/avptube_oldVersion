@@ -1,0 +1,186 @@
+{
+  "project_info": {
+    "project_number": "216616534499",
+    "firebase_url": "https://a-v-p-ce536.firebaseio.com",
+    "project_id": "a-v-p-ce536",
+    "storage_bucket": "a-v-p-ce536.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216616534499:android:2638041ec6771a9e",
+        "android_client_info": {
+          "package_name": "avp.video.music"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWv95aW5aJ5Lsz6YrvlMqsvQEpHmHaNSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216616534499:android:bb6560686dbe8122",
+        "android_client_info": {
+          "package_name": "com.vdm.vmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWv95aW5aJ5Lsz6YrvlMqsvQEpHmHaNSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216616534499:android:af30e2fc63e9e1b4",
+        "android_client_info": {
+          "package_name": "in.musicd.downloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWv95aW5aJ5Lsz6YrvlMqsvQEpHmHaNSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216616534499:android:ead94d721e3797d7",
+        "android_client_info": {
+          "package_name": "vdv.video.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWv95aW5aJ5Lsz6YrvlMqsvQEpHmHaNSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216616534499:android:7c0e8747142b6116",
+        "android_client_info": {
+          "package_name": "vid.mate.oneseven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "216616534499-1no9c0fhptvg3irha6514j7uncph3ln0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWv95aW5aJ5Lsz6YrvlMqsvQEpHmHaNSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

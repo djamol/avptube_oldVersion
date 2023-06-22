@@ -1,0 +1,1 @@
+//injectjs://javascript: document.body.insertAdjacentHTML( 'afterbegin', '<div id="myID">HOME<a href="http://apvideo.info">AvpTube</a></div>')
