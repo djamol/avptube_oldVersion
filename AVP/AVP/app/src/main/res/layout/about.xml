@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:layout_gravity="center"
+    android:background="@drawable/bgdialog"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Powered By DjAmol Group"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp" >
+    </TextView>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Official Web : WwW.DjAmol.Com"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/text"
+        android:textStyle="bold"
+        android:textSize="18sp" >
+    </TextView><TextView
+    android:id="@+id/text3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="Official Twitter : twitter.com/DjAmol"
+    android:textColor="#FFFFFF"
+    android:layout_below="@+id/text2"
+    android:textStyle="bold"
+    android:textSize="18sp" >
+</TextView><TextView
+    android:id="@+id/text4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="Official Facebook : facebook.com/DjAmolGroup"
+    android:textColor="#FFFFFF"
+    android:layout_below="@+id/text3"
+    android:textStyle="bold"
+    android:textSize="18sp" >
+</TextView>
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Facebook Page : facebook.com/AvpTube"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/text4"
+        android:textStyle="bold"
+        android:textSize="18sp" >
+    </TextView>
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Twitter Page : twitter.com/AvpTube"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/text5"
+        android:textStyle="bold"
+        android:textSize="18sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/greenbt"
+        android:text="OK" />
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ok"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

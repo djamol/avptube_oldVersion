@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>Video & Music Search</title>
+<link rel="icon" href="home.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="/inc/suggest/suggest.js"></script>
+</head><body>  
+<div class="header"><center><a href="http://mobile.djamol.com/android/?app=13">
+<img src="icon.png" height="100" alt="avptube" /></a> </center></div> 
+<div class="ads"> <b>AvpTube</b>संगीत और वीडियो ब्राउज़र</div>
+<div class="formsearch">सर्च वीडियो
+<form action="http://mobile.djamol.com/android/tube/search.php" method="get">
+<input type="text" value="" placeholder="वीडियो खोज कीवर्ड ..." id="keywords" name="q" />
+<input type="hidden" name="map" value="1" /><input type="hidden" name="app" value="13" />
+<input type="hidden" name="l" value="en" />
+<select name="ob">
+<option value="0">सभी वीडियो</option>
+<option value="1">नवीनतम वीडियो</option>
+  <option value="2">टॉप रेटेड</option>
+  <option value="3">दृश्य गणना</option>
+  <option value="4">वर्णमाला</option>
+</select><input type="submit" value="खोजें" /></form>
+<div id="results"></div>
+<div class="overlay"></div>
+</div>
+	
+	
+	<div class="player">सर्च संगीत<form action="http://mobile.djamol.com/music/free" method="get">
+<input type="hidden" name="map" value="1" />
+<input type="hidden" name="app" value="13" />
+<input type="text" value="" placeholder=" संगीत खोजशब्द ..." name="q" />
+<select name="ob">
+<option value="0">सभी समय</option>
+<option value="1">नवीनतम</option>
+<option value="2">यह महीना</option>
+<option value="3">इस वर्ष</option><option value="4">पिछले साल</option></select>
+  <input type="submit" value="खोजें" /></form>
+</div>
+	
+<h2>Menu</h2>
+<div class="catRowHome"><a href="about:bookmark">मेरे बुकमार्क्स</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/topartist.php?l=hi&app=13">विश्व संगीत</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/bollywood?l=hi&app=13">बॉलीवुड संगीत</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/toptrack.php?l=hi&app=13">शीर्ष ट्रैक संगीत</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/topgenre.php?l=hi&app=13">शीर्ष ट्रैक घराना</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/cat.php?l=hi&app=13">वीडियो श्रेणियाँ</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/cncat.php?l=hi&app=13">टॉप वीडियो चैनल</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/spl.php?l=hi&app=13">वीडियो प्लेलिस्ट</a></div>
+
+<div class="footer">&copy;AvpTube -Search(Video & Music)</div></body></html>

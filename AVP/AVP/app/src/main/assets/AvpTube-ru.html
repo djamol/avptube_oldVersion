@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<title>Video & Music Search</title>
+<link rel="icon" href="home.ico" type="image/x-icon"/>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="/inc/suggest/suggest.js"></script>
+</head><body>  
+<div class="header"><center><a href="http://mobile.djamol.com/android/tube/search.php?l=ru&app=13">
+<img src="icon.png" height="100" alt="avptube" /></a> </center></div> 
+<div class="ads"> <b>AvpTube</b> Музыка & Видео Browser</div>
+<div class="formsearch">Поиск видео
+<form action="http://mobile.djamol.com/android/tube/search.php" method="get">
+<input type="text" value="" placeholder="Видео Поиск по ключевой фразе ..." id="keywords" name="q" />
+<input type="hidden" name="map" value="1" /><input type="hidden" name="app" value="13" />
+<input type="hidden" name="l" value="ru" />
+<select name="ob">
+<option value="0">Все видео</option>
+<option value="1">Последнее видео</option>
+  <option value="2">Лучшие</option>
+  <option value="3">Просмотрам</option>
+  <option value="4">Алфавит</option>
+</select><input type="submit" value="Поиск" /></form>
+<div id="results"></div>
+<div class="overlay"></div>
+</div>
+	
+	
+	<div class="player">Поиск музыки<form action="http://mobile.djamol.com/music/free" method="get">
+<input type="hidden" name="map" value="1" /><input type="hidden" name="l" value="ru" />
+<input type="hidden" name="app" value="13" />
+<input type="text" value="" placeholder="Музыка Ключевое слово ..." name="q" />
+<select name="ob">
+<option value="0">Все время</option>
+<option value="1">Последние</option>
+<option value="2">Этот месяц</option>
+<option value="3">в этом году</option><option value="4">Последние год</option></select>
+  <input type="submit" value="Поиск" /></form>
+</div>
+	
+<h2>Menu</h2>
+<div class="catRowHome"><a href="about:bookmark">Мои Закладок</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/topartist.php?l=ru&app=13">Этническая музыка</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/bollywood?l=ru&app=13">Bollywood Music</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/toptrack.php?l=ru&app=13">Топ Track Music</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/topgenre.php?l=ru&app=13">Топ Track Жанр</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/cat.php?l=ru&app=13">Видео Категории</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/cncat.php?l=ru&app=13">Топ видеоканал</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/spl.php?l=ru&app=13">Видео Плейлист</a></div>
+
+<div class="footer">&copy;AvpTube -Search(Video & Music)</div></body></html>

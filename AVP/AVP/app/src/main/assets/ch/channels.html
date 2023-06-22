@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head><meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>Marathi Channels</title>
+<link rel="icon" href="home.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<style>
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 130px;
+    
+}
+
+
+    .photoblock img {
+       max-width: 100%; /* a percentage will contract on smaller devices */
+       height: auto; /* keeps the height proportional to the width */
+       border: 5px solid #fff;
+       box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+       /* below the corners are rounded to half of the image width to make the circle*/
+       border-radius: 50%;
+    }
+
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    
+    /* link color*/
+    display: block;
+}
+</style>
+</head><body>  
+<div class="ads"> <b>Select Language</b> (Tv Channels)</div>
+</div><div class="formsearch">Search Channels
+<form action="http://mobile.djamol.com/android/pg/sc.php" method="get">
+<input type="text" value="" placeholder="Search Channels(eg. Singer/Tv Channel)" id="keywords" name="search" />
+<input type="hidden" name="l" value="en" />
+<select name="ob">
+<option value="videoCount">Video Count</option>
+<option value="viewCount">View Count</option>
+  <option value="date">Date</option>
+  <option value="rating">Rating</option>
+  <option value="title">Alphabet</option>
+  <option value="relevance">Relevance</option>
+</select>
+<input type="submit" value="Search" /></form></div>
+
+<div class="menu2">Channels</div>
+<div class="header">
+<div class="item">
+<a href="hindi.html">
+<div class="photoblock"><img src="hindi.jpg" alt="" /></div><span class="caption">Hindi</span></a></div>
+<div class="item">
+<a href="english.html">
+<div class="photoblock"><img src="english.png" alt="" /></div><span class="caption">English</span></a></div>
+<div class="item">
+<a href="marathi.html">
+<div class="photoblock"><img src="mim.jpg" alt="" /></div><span class="caption">Marathi</span></a></div>
+
+
+
+
+<div class="menu2">Search More Tv Channels</div>
+</div>
+<div class="header">
+<!--
+
+<div class="item">
+<a href="http://mobile.djamol.com/android/pg/channel.php?l=en&app=16&live=tv&ch=">
+<div class="photoblock"><img src="starutsav.jpg" alt="" /></div><span class="caption">Star</span></a></div>
+
+-->
+<div class="item">
+<a href="http://mobile.djamol.com/android/pg/sc.php?l=en&app=16&live=tv&q=english&l=en&ob=">
+<div class="photoblock"><img src="more.png" alt="" /></div><span class="caption">More Channels</span></a></div>
+
+
+</div>
+<!-- srolling content right to left
+<marquee direction="left" scrollamount="3" scrolldelay="80" onmouseover="this.stop();" onmouseout="this.start();">
+</marquee>
+-->
+<h2>Menu</h2>
+<div class="catRowHome"><a href="about:bookmark">My Bookmarks</a></div>
+<div class="footer">&copy;OnMusic-Search Music</div></body></html>

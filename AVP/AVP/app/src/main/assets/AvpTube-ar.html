@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head><meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>Video & Music Search</title>
+<link rel="icon" href="home.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="/inc/suggest/suggest.js"></script>
+</head><body>  
+<div class="header"><center><a href="http://mobile.djamol.com/android/?l=ar&app=13">
+<img src="icon.png" height="100" alt="avptube" /></a> </center></div> 
+<div class="ads"> <b>AvpTube</b> الموسيقى والفيديو متصفح </div>
+
+<div class="formsearch">بحث فيديو 
+<form action="http://mobile.djamol.com/android/tube/search.php" method="get">
+<input type="text" value="" placeholder="فيديو كلمات البحث ... " id="keywords" name="q" />
+<input type="hidden" name="map" value="1" /><input type="hidden" name="app" value="13" />
+<input type="hidden" name="l" value="ar" />
+<select name="ob">
+<option value="0">جميع الفيديوهات</option>
+<option value="1">أحدث فيديو </option>
+  <option value="2"> الأعلى تقييما</option>
+  <option value="3"> عدد المشاهدات</option>
+  <option value="4"> الأبجدية</option>
+</select><input type="submit" value=" البحث" /></form>
+<div id="results"></div>
+<div class="overlay"></div>
+</div>
+	
+	
+	<div class="player">Search Music<form action="http://mobile.djamol.com/music/free" method="get">
+<input type="hidden" name="map" value="1" /><input type="hidden" name="app" value="13" />
+<input type="text" value="" placeholder="Music Keyword..." name="q" /><input type="hidden" name="l" value="ar" />
+
+<select name="ob">
+<option value="0">كل الوقت</option>
+<option value="1">آخر </option>
+<option value="2">هذا الشهر</option>
+<option value="3">هذه السنة</option><option value="4">السنة الماضية</option></select>
+  <input type="submit" value=" البحث" /></form>
+</div>
+	
+<h2>Menu</h2>
+<div class="catRowHome"><a href="about:bookmark">بلدي المفضلة</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/topartist.php?l=ar&app=13">عالم الموسيقى </a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/bollywood/?l=ar&app=13">Bollywood Music</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/toptrack.php?l=ar&app=13">رأس مقطوعة موسيقية </a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/topgenre.php?l=ar&app=13">أعلى المسار النوع </a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/cat.php?l=ar&app=13">فيديو التصنيفات </a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/cncat.php?l=ar&app=13">قناة فيديو أعلى </a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/spl.php?l=ar&app=13">فيديو قائمة التشغيل</a></div>
+
+<div class="footer">&copy;AvpTube -Search(Video & Music)</div></body></html>

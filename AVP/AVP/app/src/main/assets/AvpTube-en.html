@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head><meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>Video & Music Search</title>
+<link rel="icon" href="home.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<style>
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 130px;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+</style>
+
+</head><body>  
+<div class="header"><center><a href="http://mobile.djamol.com/android/?app=13">
+<img src="avptube.gif" height="100" alt="avptube" /></a> </center></div> 
+<div class="ads"> <b>AvpTube</b> Music & Video Browser</div>
+<div class="header">
+<marquee direction="left" scrollamount="3" scrolldelay="80" onmouseover="this.stop();" onmouseout="this.start();">
+<div class="item">
+<a href="http://mobile.djamol.com/music/free/?q=djamol?l=en&app=15"><img src="ch/dj.png"><span class="caption">Dj Music</span></a></div>
+
+<div class="item">
+<a href="http://mobile.djamol.com/music/free/?q=pop&l=en&app=15"><img src="ch/pop.jpg" width="90" height="130"><span class="caption">Pop Music</span></a></div>
+<div class="item">
+<a href="http://mobile.djamol.com/music/free/?q=bollywood&l=en&app=15"><img src="ch/bolly.jpg" width="90" height="130"><span class="caption">Bollywood Songs</span></a></div>
+<div class="item">
+<a href="http://mobile.djamol.com/music/free/bollywood/?l=en&app=15"><img src="ch/90.jpg" width="90" height="130"><span class="caption">Movie Songs</span></a></div>
+<div class="item">
+<a href="http://mobile.djamol.com/music/free/?q=justin+bieber&l=en&app=15"><img src="ch/in.jpg" width="90" height="130"><span class="caption">World</span></a></div>
+<div class="item">
+<a href="http://mobile.djamol.com/music/free/?q=cover+pop?l=en&app=15"><img src="ch/home.jpg" width="90" height="130"><span class="caption">Home Made Songs</span></a></div>
+<div class="item">
+<a href="http://mobile.djamol.com/music/free/?q=marathi?l=en&app=15"><img src="ch/marathi.jpg" width="90" height="130"><span class="caption">Regional Music</span></a></div>
+
+</marquee>
+</div>
+
+
+
+<div class="formsearch">Search Video
+<form action="http://mobile.djamol.com/android/tube/search.php" method="get">
+<input type="text" value="" placeholder="Video Search Keyword..." id="keywords" name="q" />
+<input type="hidden" name="map" value="1" /><input type="hidden" name="app" value="13" />
+<input type="hidden" name="l" value="en" />
+<select name="ob">
+<option value="0">All Videos</option>
+<option value="1">Latest Video</option>
+  <option value="2">Top Rated</option>
+  <option value="3">View Count</option>
+  <option value="4">Alphabet</option>
+</select><input type="submit" value="Search" /></form>
+<div id="results"></div>
+<div class="overlay"></div>
+</div>
+	
+	<div class="player">Search Music<form action="http://mobile.djamol.com/music/free" method="get">
+<input type="hidden" name="map" value="1" />
+<input type="hidden" name="app" value="13" />
+<input type="text" value="" placeholder="Music Keyword..." name="q" />
+<select name="ob">
+<option value="0">All Time</option>
+<option value="1">Latest</option>
+<option value="2">This Month</option>
+<option value="3">This Year</option><option value="4">Last Year</option></select>
+  <input type="submit" value="Search" /></form>
+</div>
+	
+<h2>Menu</h2>
+<div class="catRowHome"><a href="about:bookmark">My Bookmarks</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/topartist.php?l=en&app=13">World Music</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/bollywood/?l=en&app=13">Bollywood Music</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/toptrack.php?l=en&app=13">Top Track Music</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/music/free/top/topgenre.php?l=en&app=13">Top Track Genre</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/cat.php?l=en&app=13">Video Categories</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/cncat.php?l=en&app=13">Top Video Channel</a></div>
+<div class="catRowHome"><a href="http://mobile.djamol.com/android/pg/spl.php?l=en&app=13">Video Playlist</a></div>
+<div class="catRowHome"><a href="ch/channels.html">Search Channels</a></div>
+
+<div class="footer">&copy;AvpTube -Search(Video & Music)</div></body></html>

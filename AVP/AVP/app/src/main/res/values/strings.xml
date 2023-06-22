@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">AvpTube</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="stop">Stop</string>
+    <string name="history">History</string>
+    <string name="go">Go</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="download">Download</string>
+    <string name="question">Do you want to save this file?</string>
+    <string name="result">File saved: </string>
+    <string name="clear">Clear</string>
+    <string name="close">Close</string>
+    <string name="favicon">favicon</string>
+    <string name="noconnection">Internet connection not available</string>
+    <string name="error">Error</string>
+    <string name="nosd">Storage not available</string>
+    <string name="play">Play</string>
+    <string name="mediaq">Do You Want Play or Download Media File ?</string>
+    <string name="mdetect">Media File Action</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="stopping">Stopping</string>
+    <string name="exit">Exit</string>
+    <string name="lang">Language</string>
+    <string name="searchbox">Menu Icon</string>
+    <string name="msgback">Succefully Back Page</string>
+    <string name="msghome">Home Page</string>
+    <string name="msgforward">Succefully Forward Page</string>
+    <string name="en">English</string>
+    <string name="hi">हिन्दी</string>
+    <string name="ru">России</string>
+    <string name="rfresh">Refresh</string>
+    <string name="omore">More</string>
+    <string name="hmi">Hide Menu Icon</string>
+    <string name="smi">Show Menu Icon</string>
+    <string name="mci">Cancel</string>
+    <string name="ltt">Select Language</string>
+    <string name="sbm">Icon Menu Option</string>
+    <string name="dback">Downloading Start Now</string>
+    <string name="chkup">Check/Update App</string>
+    <string name="selctdm">Select DM (Download Manager)</string>
+    <string name="avpdm">Avptube DM</string>
+    <string name="adm">Android DM</string>
+    <string name="country_prompt">Enter Keyword</string>
+    <string name="searchid">Search</string>
+    <string name="search_song">Search Song</string>
+    <string name="search_video">Search Video</string>
+    <string name="more">More Option</string>
+    <string-array name="country_arrays">
+        <item value="0">All Videos</item>
+        <item value="1">Latest Video</item>
+        <item value="2">Top Rated</item>
+        <item value="3">View Count</item>
+        <item value="4">Alphabet</item>
+    </string-array>
+
+    <string-array name="country2_arrays">
+        <item value="0">All Time</item>
+        <item value="1">Latest Music</item>
+        <item value="2">This Month</item>
+        <item value="3">This Year</item>
+        <item value="4">Last Year</item>
+    </string-array>
+    <string name="dload">Download</string>
+    <string name="exitapp">Do you really want to exit App?</string>
+    <string name="minapp">No. Minimize App</string>
+    <string name="exiapp">Yes. Exit App</string>
+    <string name="share">Share App</string>
+    <string name="wait">Loading Wait</string>
+    <string name="reslt">Result</string>
+    <!-- Pref Setting Strings -->
+    <string name="setting">Settings</string>
+    <string name="micon">Menu Icon</string>
+    <string name="pref_send_report">Send crash reports</string>
+    <string name="pref_send_report_summary">Helps to fix bugs</string>
+    <string name="pref_sync_frequency">Change Language</string>
+    <string name="pref_sync_frequency_summary">Set Application Language</string>
+    <string name="pref_user_name">Set username</string>
+    <string name="pref_user_name_summary">Set your username</string>
+    <string name="pref_user_profile">User Profile</string>
+    <string name="pref_update_setting">Update Settings</string>
+    <string name="bm">Add Bookmark</string>
+    <string name="bmmanage">Manage Bookmark</string>
+    <!-- youtubeplayer -->
+    <string name="error_player">There was an error initializing the YouTubePlayer</string>
+    <string name="fullscreen_tutorial">Video Player</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+    <string name="description">Media Control</string>
+    <string name="action_search">Search Video</string>
+
+
+    <!-- download_manager -->
+    <string name="download_manager">Download manager</string>
+    <string name="download_install">Install</string>
+    <string name="download_downloading">downloading</string>
+    <string name="download_finishing">Downloaded %1$s%</string>
+    <string name="download_downloaded">Downloaded</string>
+    <string name="download_initial">Initial</string>
+    <string name="download_stopped">Stopped</string>
+    <string name="download_paused">Paused</string>
+    <string name="download_failed">Failed</string>
+    <string name="download_finished">Finished</string>
+    <string name="download_installed">Installed</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_continue">Continue</string>
+    <string name="download_notification">A download task finished</string>
+    <string name="download_click_notify">View download task list</string>
+    <string name="downloading_msg">Downloading…</string>
+    <string name="download_task_added">A download task have been added to queue.</string>
+    <string name="download_invalid_url">Invalid download url</string>
+    <string name="downloaded_installed">Installed</string>
+    <string name="download_delete_task">Delete download task</string>
+    <string name="download_delete_task_file">Delete download task and file</string>
+    <string name="download_deleted_task_ok">Download task  deleted</string>
+    <string name="download_deleted_task_file_ok">Download task and file  deleted</string>
+    <string name="download_file">Downloaded  %1$s</string>
+    <string name="download_speed">Download %1$s percent, speed %2$s KB/S</string>
+    <string name="download_file_not_exist">File not exist</string>
+    <!-- Strongly suggest to change this action string -->
+    <string name="download_list_action">avp.video.music.action</string>
+    <string name="go_to_downloading_list">Go to downloading List</string>
+
+</resources>
